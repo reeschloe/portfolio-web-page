@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+a:link {
+  color: #4cb89d;
+}
+
+a:visited {
+  color: #ac53ac;
+}
+
+a:hover {
+  color: #7373c9;
+}
+
+a:active {
+  color: #eeaadc;
+}
+
+h1 {
+  color: #eeaadc;
+  font-family: cursive, Georgia, serif;
+  font-size: 50px;
+  background: white;
+  padding: 20px 100px;
+  margin: 20px 200px 0px 200px;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  color: #eeaadc;
+  font-family: cursive, Georgia, serif;
+  background: white;
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  padding-bottom: 4px
+}
+
+header {
+  background-image: url("images/succulent.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+.portrait {
+  height: 250px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  padding: 0px 250px;
+}
+
+main {
+  background-color: #c8d5d2;
+  padding: 25px
+}
+
+footer {
+  background-image: url("images/succulent.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -16px
+}
+
+footer p {
+  color: #eeaadc;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  background: white;
+  padding: 4px 20px;
+  margin: 4px 200px 0px 200px;
+  min-width: 100px;
+}
