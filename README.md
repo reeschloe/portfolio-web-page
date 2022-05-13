@@ -1,1 +1,1 @@
-# portfolio-web-page
+Portfolio page created for Thinkful curriculum.
