@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* anchor elements to style links: */
 a:link {
   color: #0e4e3e;
 }
@@ -18,6 +18,7 @@ a:active {
   color: #5f1a35;
 }
 
+/* style largest header */
 h1 {
   color: #99367f;
   font-family: cursive, Georgia, serif;
@@ -31,6 +32,7 @@ h1 {
   align-items: center;
 }
 
+/* style non-header text in page header  */
 header p {
   color: #99367f;
   font-family: cursive, Georgia, serif;
@@ -43,6 +45,7 @@ header p {
   padding-bottom: 4px
 }
 
+/* add background image and center content of header section */
 header {
   background-image: url("images/succulent.jpg");
   display: flex;
@@ -51,13 +54,17 @@ header {
   align-items: center;
 }
 
+/* center all headers */
 h1, h2, h3 {
   text-align: center;
 }
+
+/* resize intro image */
 .portrait {
   height: 250px;
 }
 
+/* align and center intro section */
 div {
   display: flex;
   flex-direction: column;
@@ -65,15 +72,18 @@ div {
   justify-content: center;
 }
 
+/* add left/right padding to articles in main section */
 article {
   padding: 0px 250px;
 }
 
+/* style main section */
 main {
   background-color: #c8d5d2;
   padding: 25px
 }
 
+/* add background image and center/align footer */
 footer {
   background-image: url("images/succulent.jpg");
   display: flex;
@@ -83,6 +93,7 @@ footer {
   margin-top: -16px
 }
 
+/* style text within footer */
 footer p {
   color: #99367f;
   font-family: Georgia, serif;
