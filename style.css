@@ -3,7 +3,7 @@
 }
 
 a:link {
-  color: #4cb89d;
+  color: #0e4e3e;
 }
 
 a:visited {
@@ -19,7 +19,7 @@ a:active {
 }
 
 h1 {
-  color: #eeaadc;
+  color: #99367f;
   font-family: cursive, Georgia, serif;
   font-size: 50px;
   background: white;
@@ -32,7 +32,7 @@ h1 {
 }
 
 header p {
-  color: #eeaadc;
+  color: #99367f;
   font-family: cursive, Georgia, serif;
   background: white;
   min-width: 200px;
